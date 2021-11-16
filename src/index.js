@@ -1,3 +1,4 @@
 import ReactDOM from "react-dom";
-
-ReactDOM.render(<div>Hello Mehrdad!</div>, document.getElementById("root"));
+import Skill from "./Skill";
+import "bootstrap/dist/css/bootstrap.css";
+ReactDOM.render(<Skill />, document.getElementById("root"));
